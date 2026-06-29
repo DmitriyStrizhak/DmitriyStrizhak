@@ -1,0 +1,113 @@
+:root {
+  /* ГАРНИТУРЫ */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "NextArt", sans-serif;
+
+  /* ЖИРНОСТЬ */
+  --weight-regular: 400;
+  --weight-bold: 600;
+
+  /* ОТСТУПЫ */
+  --space0: 0px;
+  --space50: 4px;
+  --space100: 8px;
+  --space200: 16px;
+  --space300: 24px;
+  --space400: 32px;
+  --space500: 40px;
+  --space600: 48px;
+  --space700: 56px;
+  --space800: 64px;
+  --space900: 72px;
+  --space1000: 80px;
+
+  /* СКРУГЛЕНИЯ */
+  --radius0: 0px;
+  --radius100: 8px;
+  --radius200: 16px;
+  --radius300: 24px;
+  --radius400: 32px;
+  --radius9999: 9999px;
+
+  /* ЦВЕТ */
+  --color-primary: #000000;
+
+  --color-primary-inverse: #ffffff;
+
+  --color-primary-surface: #ffffff;
+  --color-secondary-surface: #eceff1;
+  --color-tetriary-surface: #C8E6C9;
+  --color-quaternary-surface: #DCDFE0;
+
+  --color-primary-surface-inverse: #000000;
+
+  /* ТИПОГРАФИКА */
+
+  /* DISPLAY */
+  --font-display-large: 57px;
+  --line-display-large: 64px;
+
+  --font-display-medium: 45px;
+  --line-display-medium: 52px;
+
+  --font-display-small: 36px;
+  --line--display-small: 44px;
+
+  /* HEADLINE */
+  --font-headline-large: 32px;
+  --line-headline-large: 40px;
+
+  --font-headline-medium: 28px;
+  --line-headline-medium: 36px;
+
+  --font-headline-small: 24px;
+  --line-headline-small: 32px;
+
+  /* TITLE */
+  --font-title-large: 20px;
+  --line-title-large: 28px;
+
+  --font-title-medium: 16px;
+  --line-title-medium: 24px;
+
+  --font-title-small: 14px;
+  --line-title-small: 20px;
+
+  /* LABLE */
+  --font-lable-large: 14px;
+  --line-lable-large: 20px;
+
+  --font-lable-medium: 12px;
+  --line-lable-medium: 16px;
+
+  --font-lable-small: 11px;
+  --line-lable-small: 16px;
+
+  /* BODY */
+  --font-body-large: 16px;
+  --line-body-large: 24px;
+
+  --font-body-medium: 14px;
+  --line-body-medium: 20px;
+
+  --font-body-small: 12px;
+  --line-body-small: 16px;
+
+  /* OTHER */
+  --plyr-color-main: var(--color-primary); /* цвет кнопки видео */
+  --plyr-control-spacing: 32px; /* размер кнокпи плеера*/
+}
+
+body.dark {
+  --color-primary: #ffffff;
+
+  --color-primary-inverse: #000000;
+
+  --color-primary-surface: #000000;
+  --color-secondary-surface: #1f1f1f;
+
+  --color-primary-surface-inverse: #ffffff;
+
+  --color-button-primary-hover: #cccccc;
+
+}
