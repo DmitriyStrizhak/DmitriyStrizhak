@@ -948,7 +948,7 @@ button {
 
 @media (max-width: 480px) {
   .hero__left {
-    padding: var(--space200);
+    padding: var(--space300) var(--space200);
   }
 
   .hero__title {
