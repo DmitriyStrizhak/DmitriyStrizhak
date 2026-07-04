@@ -801,29 +801,6 @@ button {
 /* АДАПТИВ                */
 /* ===================== */
 
-@media (max-width: 1200px) {
-  /* HERO */
-  .hero__title {
-    font-size: var(--font-display-small);
-    line-height: var(--line-display-small);
-  }
-
-  .hero__text {
-    font-size: var(--font-title-large);
-    line-height: var(--line-title-large);
-  }
-
-  .hero__buttons {
-    flex-direction: column;
-  }
-
-  .hero__buttons .btn {
-    width: 100%;
-    justify-content: center;
-    align-self: stretch;
-  }
-}
-
 @media (max-width: 1024px) {
   /* БУРГЕР */
   .burger {
@@ -966,23 +943,6 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  /* HERO */
-  .hero__left {
-    padding: var(--space300);
-  }
-
-  /* Case */
-  .case__right {
-    padding: var(--space300);
-  }
-
-  /* About */
-  .about__right {
-    padding: var(--space300);
   }
 }
 
