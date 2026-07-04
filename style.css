@@ -1008,15 +1008,15 @@ button {
   #tab-text {
     padding: var(--space300) var(--space200);
   }
-  
-.header {
-  padding-top: var(--space300);
-  padding-bottom: var(--space300);
-}
 
-.mobile-menu__link {
-  font-size: var(--font-headline-large);
-  line-height: var(--line-headline-large);
-}
+  .header {
+    padding-top: var(--space300);
+    padding-bottom: var(--space300);
+  }
+
+  .mobile-menu__link {
+    font-size: var(--font-headline-large);
+    line-height: var(--line-headline-large);
+  }
 
 }
