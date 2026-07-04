@@ -730,7 +730,9 @@ button {
   width: 100%;
   background-color: var(--color-primary);
   border-radius: 2px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
   transform-origin: center;
 }
 
@@ -981,5 +983,69 @@ button {
   /* About */
   .about__right {
     padding: var(--space300);
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__left {
+    padding: var(--space200);
+  }
+
+  .hero__title {
+    font-size: var(--font-headline-small);
+    line-height: var(--line-headline-small);
+  }
+  .hero__text {
+    font-size: var(--font-title-medium);
+    line-height: var(--line-title-medium);
+  }
+
+  h2 {
+    font-size: var(--font-headline-large);
+    line-height: var(--line-headline-large);
+  }
+
+  .case__right {
+    padding: var(--space300) var(--space200);
+  }
+  .case__info {
+    gap: var(--space100);
+  }
+  .case__company,
+  .case__text {
+    font-size: var(--font-title-medium);
+    line-height: var(--line-title-medium);
+  }
+
+  h3 {
+    font-size: var(--font-headline-small);
+    line-height: var(--line-headline-small);
+  }
+
+  h4 {
+    font-size: var(--font-headline-small);
+    line-height: var(--line-headline-small);
+  }
+  .about__resume,
+  .about__links a {
+    font-size: var(--font-title-medium);
+    line-height: var(--line-title-medium);
+  }
+
+  .about__contacts,
+  .about__resume {
+    gap: var(--space200);
+  }
+
+  .about__links {
+    gap: var(--space100);
+  }
+  .about__right {
+    gap: var(--space400);
+    padding: var(--space300) var(--space200);
+  }
+
+  #tab-text {
+    padding: var(--space300) var(--space200);
   }
 }
