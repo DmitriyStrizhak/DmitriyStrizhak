@@ -1048,4 +1048,10 @@ button {
   #tab-text {
     padding: var(--space300) var(--space200);
   }
+  
+.header {
+  padding-top: var(--space300);
+  padding-bottom: var(--space300);
+}
+
 }
