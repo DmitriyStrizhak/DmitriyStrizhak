@@ -234,7 +234,9 @@ button {
 /* ===================== */
 
 .btn {
+  text-align: center;
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   align-self: flex-start;
   border-radius: var(--radius9999);
@@ -916,34 +918,7 @@ button {
 }
 
 @media (max-width: 768px) {
-  /* Wrapper */
-  .wrapper {
-    padding-left: var(--space200);
-    padding-right: var(--space200);
-  }
-  /* HERO */
-  .hero__buttons {
-    flex-direction: column;
-  }
 
-  .hero__buttons .btn {
-    width: 100%;
-    align-self: stretch;
-    justify-content: center;
-  }
-
-  /* Case */
-  .case__mecrics {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .case__metric {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
 }
 
 @media (max-width: 480px) {
