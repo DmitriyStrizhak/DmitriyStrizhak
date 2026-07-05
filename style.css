@@ -918,6 +918,15 @@ button {
 }
 
 @media (max-width: 768px) {
+   .hero__buttons {
+    flex-direction: column;
+  }
+
+  .hero__buttons .btn {
+    width: 100%;
+    align-self: stretch;
+    justify-content: center;
+  }
 
 }
 
