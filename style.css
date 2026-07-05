@@ -804,6 +804,12 @@ button {
 /* ===================== */
 
 @media (max-width: 1024px) {
+
+  .wrapper {
+    padding-left: var(--space200);
+    padding-right: var(--space200);
+  }
+  
   /* БУРГЕР */
   .burger {
     display: flex;
