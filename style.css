@@ -803,13 +803,24 @@ button {
 /* АДАПТИВ                */
 /* ===================== */
 
-@media (max-width: 1024px) {
+@media (min-width: 1640px) {
+  .hero__title {
+    font-size: 56px;
+    line-height: 64px;
+  }
 
+  .hero__text {
+    font-size: var(--font-headline-medium);
+    line-height: var(--line-headline-medium);
+  }
+}
+
+@media (max-width: 1024px) {
   .wrapper {
     padding-left: var(--space200);
     padding-right: var(--space200);
   }
-  
+
   /* БУРГЕР */
   .burger {
     display: flex;
@@ -924,7 +935,7 @@ button {
 }
 
 @media (max-width: 768px) {
-   .hero__buttons {
+  .hero__buttons {
     flex-direction: column;
   }
 
@@ -933,7 +944,6 @@ button {
     align-self: stretch;
     justify-content: center;
   }
-
 }
 
 @media (max-width: 480px) {
@@ -1008,5 +1018,4 @@ button {
     font-size: var(--font-headline-large);
     line-height: var(--line-headline-large);
   }
-
 }
