@@ -813,6 +813,13 @@ button {
     font-size: var(--font-headline-medium);
     line-height: var(--line-headline-medium);
   }
+
+  .about__resume,
+  .about__links a {
+    font-size: var( --font-headline-large);
+    line-height: var(--line-headline-large);
+  }
+
 }
 
 @media (max-width: 1024px) {
