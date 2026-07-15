@@ -73,13 +73,6 @@ h3 {
   font-weight: var(--weight-bold);
 }
 
-h4 {
-  font-family: var(--font-secondary);
-  font-size: var(--font-headline-large);
-  line-height: var(--line-headline-large);
-  font-weight: var(--weight-bold);
-}
-
 hr {
   border: none;
   border-top: 1px solid var(--color-primary);
@@ -276,6 +269,12 @@ button {
   padding: var(--space200) var(--space300);
   font-size: var(--font-title-medium);
   line-height: var(--line-title-medium);
+}
+
+.btn--extra-large {
+  padding: var(--space500) var(--space500);
+  font-size: var(--font-headline-small);
+  line-height: var(--line-headline-small);
 }
 
 /* ===================== */
@@ -669,13 +668,12 @@ button {
 .about__links {
   display: flex;
   flex-direction: column;
-  gap: var(--space200);
+  gap: var(--space300);
 }
 
-.about__resume,
 .about__links a {
-  font-size: var(--font-headline-small);
-  line-height: var(--line-headline-small);
+  font-size: var(--font-display-small);
+  line-height: var(--line-display-small);
 }
 
 /* ===================== */
@@ -997,10 +995,6 @@ button {
     line-height: var(--line-headline-small);
   }
 
-  h4 {
-    font-size: var(--font-headline-small);
-    line-height: var(--line-headline-small);
-  }
   .about__resume,
   .about__links a {
     font-size: var(--font-title-medium);
