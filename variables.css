@@ -30,14 +30,16 @@
   --radius9999: 9999px;
 
   /* ЦВЕТ */
-  --color-primary: #000000;
+  --color-primary: #121212;
 
   --color-primary-inverse: #ffffff;
 
-  --color-primary-surface: #ffffff;
-  --color-secondary-surface: #eceff1;
+  --color-primary-surface: #B3B2AE;
+  --color-secondary-surface: #C1C1BD;
   --color-tetriary-surface: #C8E6C9;
   --color-quaternary-surface: #DCDFE0;
+
+  --color-accent-surface: #EA0F32;
 
   --color-primary-surface-inverse: #000000;
 

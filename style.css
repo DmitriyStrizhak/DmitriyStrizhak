@@ -35,6 +35,8 @@
 html {
   scrollbar-gutter: stable;
   scroll-behavior: smooth;
+  scrollbar-width: none;
+
 }
 
 body {
@@ -44,6 +46,7 @@ body {
   background-color: var(--color-primary-surface);
   min-height: 100vh;
 }
+
 
 a {
   text-decoration: none;
@@ -245,8 +248,9 @@ button {
 }
 
 .btn--primary {
-  color: var(--color-primary-inverse);
-  background-color: var(--color-primary-surface-inverse);
+  color: var(--color-primary);
+  background-color: var(--color-accent-surface);
+  border: 1px solid var(--color-accent-surface)
 }
 
 .btn--primary:hover {
@@ -458,7 +462,7 @@ button {
   line-height: var(--line-title-large);
 }
 
-.case__mecrics {
+/* .case__mecrics {
   display: inline-flex;
   gap: var(--space100);
 }
@@ -485,7 +489,7 @@ button {
   font-weight: var(--weight-bold);
   font-size: var(--font-headline-small);
   line-height: var(--line-headline-small);
-}
+} */
 
 /* ===================== */
 /* О СЕБЕ                 */
@@ -540,8 +544,8 @@ button {
 }
 
 .tabs__tab--active {
-  background-color: var(--color-primary);
-  color: var(--color-primary-inverse);
+  background-color: var(--color-accent-surface);
+  color: var(--color-primary);
 }
 
 .tabs__content {
@@ -589,6 +593,10 @@ button {
   margin-bottom: var(--space200);
   display: block;
   margin-inline: auto;
+}
+
+.tabs__panel::-webkit-scrollbar {
+  display: none;
 }
 
 .about__right {
@@ -694,8 +702,8 @@ button {
 .custom-cursor {
   position: fixed;
   pointer-events: none;
-  background-color: var(--color-primary);
-  color: var(--color-primary-inverse);
+  background-color: var(--color-accent-surface);
+  color: var(--color-primary);
   padding: var(--space100) var(--space200);
   border-radius: var(--radius400);
   font-size: var(--font-lable-large);
