@@ -828,7 +828,7 @@ button {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .wrapper {
     padding-left: var(--space200);
     padding-right: var(--space200);
