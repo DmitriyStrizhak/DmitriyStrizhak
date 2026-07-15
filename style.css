@@ -335,7 +335,7 @@ button {
   align-items: stretch;
   gap: var(--space50);
   margin-bottom: var(--space1000);
-  max-height: 80vh;
+  max-height: 75vh;
 }
 
 .hero__left,
