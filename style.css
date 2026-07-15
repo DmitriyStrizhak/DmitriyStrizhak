@@ -248,8 +248,9 @@ button {
 }
 
 .btn--primary {
-  color: var(--color-primary-inverse);
-  background-color: var(--color-primary);
+  color: var(--color-static-black);
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent)
 }
 
 .btn--primary:hover {
@@ -543,8 +544,8 @@ button {
 }
 
 .tabs__tab--active {
-  background-color: var(--color-primary);
-  color: var(--color-primary-inverse);
+  background-color: var(--color-accent);
+  color: var(--color-static-black);
 }
 
 .tabs__content {
@@ -701,8 +702,8 @@ button {
 .custom-cursor {
   position: fixed;
   pointer-events: none;
-  background-color: var(--color-primary);
-  color: var(--color-primary-inverse);
+  background-color: var(--color-accent);
+  color: var(--color-static-black);
   padding: var(--space100) var(--space200);
   border-radius: var(--radius400);
   font-size: var(--font-lable-large);

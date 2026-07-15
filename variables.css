@@ -32,12 +32,13 @@
   /* ЦВЕТ */
   --color-primary: #121212;
 
-  --color-primary-inverse: #C1C1BD;
+  --color-primary-inverse: #B3B2AE;
 
   --color-primary-surface: #B3B2AE;
   --color-secondary-surface: #C1C1BD;
 
-  --color-primary-surface-inverse: #000000;
+  --color-accent: #FE5344;
+  --color-static-black: #121212;
 
   /* ТИПОГРАФИКА */
 
@@ -97,15 +98,13 @@
 }
 
 body.dark {
-  --color-primary: #121212;
+  --color-primary: #C1C1BD;
 
-  --color-primary-inverse: #C1C1BD;
+  --color-primary-inverse: #121212;
 
-  --color-primary-surface: #000000;
-  --color-secondary-surface: #1f1f1f;
+  --color-primary-surface: #121212;
+  --color-secondary-surface: #242424;
 
-  --color-primary-surface-inverse: #ffffff;
-
-  --color-button-primary-hover: #cccccc;
-
+  --color-accent: #FE5344;
+  --color-static-black: #121212;
 }
