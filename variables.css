@@ -32,14 +32,10 @@
   /* ЦВЕТ */
   --color-primary: #121212;
 
-  --color-primary-inverse: #ffffff;
+  --color-primary-inverse: #C1C1BD;
 
   --color-primary-surface: #B3B2AE;
   --color-secondary-surface: #C1C1BD;
-  --color-tetriary-surface: #C8E6C9;
-  --color-quaternary-surface: #DCDFE0;
-
-  --color-accent-surface: #EA0F32;
 
   --color-primary-surface-inverse: #000000;
 
@@ -101,9 +97,9 @@
 }
 
 body.dark {
-  --color-primary: #ffffff;
+  --color-primary: #121212;
 
-  --color-primary-inverse: #000000;
+  --color-primary-inverse: #C1C1BD;
 
   --color-primary-surface: #000000;
   --color-secondary-surface: #1f1f1f;
