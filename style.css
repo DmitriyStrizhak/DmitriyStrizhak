@@ -805,6 +805,11 @@ button {
   align-self: center;
 }
 
+.case__content {
+  margin-bottom: var(--space600);
+  border-radius: var(--radius400);
+}
+
 /* ===================== */
 /* АДАПТИВ                */
 /* ===================== */
