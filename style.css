@@ -461,34 +461,60 @@ button {
   line-height: var(--line-title-large);
 }
 
-/* .case__mecrics {
-  display: inline-flex;
-  gap: var(--space100);
+/* ===================== */
+/* ГОРИЗОНТАЛЬНЫЕ КЕЙСЫ  */
+/* ===================== */
+
+.portfolio__cases-row {
+  display: flex;
+  gap: var(--space300);
 }
 
-.case__metric {
-  background-color: var(--color-tetriary-surface);
-  color: #1b5e20;
+.case--stacked {
+  position: relative;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: var(--space100);
-  padding: var(--space200) var(--space200);
-  border-radius: var(--radius200);
+  cursor: pointer;
+  flex: 1;
+  cursor: none;
+
 }
 
-.case__metric--title {
-  font-size: var(--font-lable-medium);
-  font-weight: var(--weight-bold);
-  letter-spacing: 0.5px;
+.case--stacked .case__left {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius400);
 }
 
-.case__metric--value {
-  font-family: var(--font-secondary);
-  font-weight: var(--weight-bold);
-  font-size: var(--font-headline-small);
-  line-height: var(--line-headline-small);
-} */
+.case--stacked .case__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+
+.case--stacked:hover .case__left img {
+  transform: scale(1.05);
+}
+
+.case--stacked .case__right {
+  position: relative;
+  left: auto;          /* сброс абсолютного позиционирования */
+  right: auto;
+  top: auto;
+  bottom: auto;
+  width: 100%;
+  margin-top: -56px;   /* наложение на картинку */
+  z-index: 2;
+  border-radius: var(--radius400);
+  background-color: var(--color-secondary-surface);
+  padding: var(--space600);
+}
 
 /* ===================== */
 /* О СЕБЕ                 */
@@ -934,6 +960,10 @@ button {
     margin-top: -56px;
     border-radius: var(--radius400);
     z-index: 1;
+  }
+
+   .portfolio__cases-row {
+    flex-direction: column;
   }
 
   /* About */
