@@ -389,7 +389,7 @@ button {
 .portfolio__cases {
   display: flex;
   flex-direction: column;
-  gap: var(--space300);
+  gap: var(--space50);
   margin-bottom: var(--space1000);
 }
 
@@ -467,7 +467,7 @@ button {
 
 .portfolio__cases-row {
   display: flex;
-  gap: var(--space300);
+  gap: var(--space50);
 }
 
 .case--stacked {
